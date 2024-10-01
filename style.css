@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.buttons-container{
+    height: 40vh;
+    width: 80vw;
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+}
+
+.buttons{
+    padding: 8vw;
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+}
+.buttons:hover{
+    cursor: pointer;
+}
+
+.results{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+
+.scores{
+    height: 20vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 10px;
+}
+
+.scoreBoard{
+    display: flex;
+    gap: 5vw;
+}
+
+.finalResult{
+    height: 20vh;
+    width: 25vw;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+}
+
+.resetGame{
+    background-color: green;
+    padding: 1vw;
+    border: none;
+    border-radius: 10px;
+}
